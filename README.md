@@ -15,6 +15,32 @@ For this project have used the following stack:
 - JavaScript
 
 
+## Getting Started
+
+To get started with this project, you can clone this repository by running the following command:
+
+```bash
+
+git clone https://github.com/Killercavin/SafaricomKE.git
+
+git clone git@github.com:Killercavin/SafaricomKE.git
+
+cd SafaricomKE
+
+```
+
+## Contributing
+
+If you would like to contribute to this project, you can fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT license.
+
+
+If you find the project or other repos under my profile helpful, please give them a star and share it with your friends. Thank you!
+
+
 
 Get started by customizing your environment (defined in the .idx/dev.nix file) with the tools and IDE extensions you'll need for your project!
 
