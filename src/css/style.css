@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    margin: 15px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    flex-basis: 25%; /* This means the logo will take up 25% of the container's width */
+    max-width: 10%; /* This is to ensure the logo doesn't exceed 25% width */
+    height: 35px; /* Adjust as needed */
+    margin: 10px;
+    padding: 2.5px;
+}
+
+.header-nav {
+    flex-basis: 75%; /* This means the nav will take up 70% of the container's width */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0; /* Remove padding to allow the nav to take up the full width */
+    margin: 0; /* Remove margin to allow the nav to take up the full width */
+}
+
+.header-nav ul li {
+    margin: auto 10px;
+    padding: 2.5px;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+btn-rec btn-rnd{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.btn-rec{
+    background-color: rgb(70, 189, 97);
+    border: 1px solid rgb(70, 189, 97);
+    color: #f1f1f1;
+    border-radius: 25px;
+    padding: 7.5px 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-rec:hover{
+    background-color: #f1f1f1;
+    border: 1px solid rgb(70, 189, 97);
+    color: rgb(70, 189, 97);
+    border-radius: 25px;
+    padding: 7.5px 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-rnd{
+    background-color: rgb(70, 189, 97);
+    border: 1px solid rgb(70, 189, 97);
+    color: #f1f1f1;
+    border-radius: 50%;
+    padding: 7.5px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-rnd:hover{
+    background-color: #f1f1f1;
+    border: 1px solid rgb(70, 189, 97);
+    color: rgb(70, 189, 97);
+    border-radius: 50%;
+    padding: 7.5px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#main{
+    margin: 5px;
+    padding: 5px;
+}
+
+#Home{
+    margin: 25px;
+    padding: 15px;
+}
+
+.home-content{
+    column-count: 2;
+    column-width: 50%;
+}
+
+.myacc{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(70, 189, 97);
+}
+
+.home-img{
+    width: 100%;
+    height: auto;
+}
+
+.home-btn{
+    background-color: rgb(70, 189, 97);
+    border: 1px solid rgb(70, 189, 97);
+    color: #f1f1f1;
+    border-radius: 25px;
+    padding: 12.5px 45px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.home-btn:hover{
+    background-color: #f1f1f1;
+    border: 1px solid rgb(70, 189, 97);
+    color: rgb(70, 189, 97);
+    border-radius: 25px;
+    padding: 12.5px 45px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home-btn{
+    margin-bottom: 25px;
+}
+
+.find{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(70, 189, 97);
+}
+
+.home-desc h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.home-desc p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.home-btn a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+}
