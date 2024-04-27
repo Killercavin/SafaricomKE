@@ -173,3 +173,36 @@ body{
     font-size: 25px;
     font-weight: 500;
 }
+
+#Discover h2{
+    margin: 5px;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.discover-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    padding: 5px;
+}
+
+.p-img{
+    column-count: 2;
+}
+
+.disc-h{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.disc-p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.disc-img{
+    width: 45%;
+    height: 20vh;
+}
